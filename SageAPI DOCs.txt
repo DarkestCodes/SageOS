@@ -1,0 +1,74 @@
+                                                                All reseved by DarkestCodes 2026
+                                                                        Sage API DOCs
+    version 1.0
+    
+    include path "Kernel/Syscalls/Headers/SageAPI.h"
+
+    //                              Power
+
+    sage.power                          // system power managemnt
+
+    # funcs
+    sage.power.shutdown                 // shuts down the system
+    sage.power.reboot                   // reboots the system
+
+
+
+    //                              Memory
+
+
+    sage.memory                         // memory managment
+
+    # funcs
+    sage.memory.malloc                  // allocates memory just like in C langauge
+    sage.memory.free                    // frees the memory
+
+
+    //                              Display
+
+    sage.display                        // display managment
+
+    # funcs
+    sage.display.erase                  // erases one char
+    sage.display.print                  // print only for strings (no pointers)
+    sage.display.printf                 // printf just like in C langauge
+    sage.display.drawLine               // draws line horizontaly
+    sage.display.clean                  // clears the screen
+
+    sage.display.changeFG               // changes foreground color (text color)
+    sage.display.changeBG               // changes background color 
+
+    sage.display.getFGcolor             // returns foreground color in hex
+    sage.display.getBGcolor             // returns background color in hex
+
+    sage.display.getColorName           // converts hex color to name
+    sage.display.getColorHex            // converts color name to hex
+
+    sage.display.resetFG                // resets foreground color
+    sage.display.resetFBG               // resets background color               
+    sage.display.resetFBG               // resets foreground and background color
+
+
+
+    //                             Cursor
+
+    sage.cursor                        // cursor managment
+
+    # funcs
+    sage.cursor.getCursorIndex         // returns cursor index
+    sage.cursor.update                 // update cursor POS
+
+
+
+    //                             SageShell API
+    
+    sageShell.keyboard                  // allows accsses to SageShell funcs & ctrl, caps, etc.
+    sageShell.keyboard.shell_add_char   // adds one character to the shell
+    sageShell.keyboard.shell_backspace  // removes one char from the shell
+    sageShell.keyboard.shell_move_cursor // moves cursor to chosen POS
+
+    sageShell.keyboard.getMagicKeys     // returns pressed keys of ctrl, caps, shift, etc
+        |
+        -> use "MagicKeys keys = sageShell.keyboard.getMagicKeys();"
+            |
+            -> e.x keys.caps -> returns bool value
