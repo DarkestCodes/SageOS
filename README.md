@@ -97,7 +97,7 @@ The shell is continuously being improved with features such as:
 
 Planned features:
 - [ ] Move from kernel ring (Avoid FULL system crash)
-- [ ] Better memory management
+- [X] Better memory management
 - [ ] More shell commands
 - [ ] File system support
 - [ ] Program loading
