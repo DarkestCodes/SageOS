@@ -27,8 +27,9 @@ Current features:
 ---
 
 ## Screenshots
+<img width="1920" height="1080" alt="Screenshot_2026-07-01_07_47_06" src="https://github.com/user-attachments/assets/bb620bb3-57b5-4076-b5ec-57129c27d99e" />
 
-Coming soon.
+<img width="1920" height="1080" alt="Screenshot_2026-07-01_07_47_25" src="https://github.com/user-attachments/assets/6bd90876-b9d0-49f1-b820-a21071a2304f" />
 
 ---
 
