@@ -74,7 +74,7 @@ void execute(char* command) {
         memmove(command,0,5);
 
         if (strcmp(command, "color") == 0){
-            sage.display.print("\tcolor foreground 'brown/black/etc'\n\tcolor background 'brown/black/etc");
+            sage.display.print("\tcolor foreground 'brown/black/etc'\n\tcolor background 'brown/black/etc'");
             return;
             
         } else {
